@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("Quelle est votre année de naissance ?");
         int année = myObj.nextInt();
-        System.out.println("Vous avez donc " + (2024 - année) + " ans !"); // On cherche l'âge de la personne
+        System.out.println("Vous avez donc " + (2024 - année) + " ans !"); // On calcule l'âge de la personne
 
       if (année == 2020 || année == 2008 || année == 1996 || année == 1984 || année == 1972) {
             System.out.println("Vous êtes du signe astrologique chinois du Rat. ");
