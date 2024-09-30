@@ -6,7 +6,7 @@ public class Main {
 
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Bonjour !");
+        System.out.println("Bonjour !"); //La politesse avant tout
         System.out.println("Je vais vous poser quelques questions pour en savoir plus sur vous.");
         Scanner myObj = new Scanner(System.in);
 
@@ -44,9 +44,9 @@ public class Main {
             System.out.println("Vous n'êtes donc pas encore né !");
         }
 
-        System.out.println("Passons maintenant à une nouvelle question, quel est votre mois de naissance ?");
+        System.out.println("Passons maintenant à une nouvelle question, quel est votre mois de naissance ?"); /*Nous avons besoin du jour et du mois de naissance pour déterminer le signe astrologique occidental, nous demanderons le jour de naissance à la prochaine entrée. */
         String mois = myObj.next();
-        System.out.println("C'est mon mois préféré !");
+        System.out.println("C'est mon mois préféré !"); //C'est une réponse générique, donc peut-être un mensonge...
 
         System.out.println("Et pour finir votre jour de naissance?");
         int jour = myObj.nextInt();
