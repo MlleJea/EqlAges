@@ -14,15 +14,15 @@ public class Main {
         int année = myObj.nextInt();
         System.out.println("Vous avez donc " + (2024 - année) + " ans !"); // On cherche l'âge de la personne
 
-        if (année == 2008 || année == 1996 || année == 1984 || année == 1972) {
+      if (année == 2020 || année == 2008 || année == 1996 || année == 1984 || année == 1972) {
             System.out.println("Vous êtes du signe astrologique chinois du Rat. ");
-        } else if (année == 2009 || année == 1997 || année == 1985 || année == 1973) {
+        } else if (année == 2021 || année == 2009 || année == 1997 || année == 1985 || année == 1973) {
             System.out.println("Vous êtes du signe astrologique chinois du Boeuf. ");
-        } else if (année == 2010 || année == 1998 || année == 1986 || année == 1974) {
+        } else if (année == 2022 || année == 2010 || année == 1998 || année == 1986 || année == 1974) {
             System.out.println("Vous êtes du signe astrologique chinois du Tigre. ");
-        } else if (année == 2011 || année == 1999 || année == 1987 || année == 1975) {
+        } else if (année == 2023 || année == 2011 || année == 1999 || année == 1987 || année == 1975) {
             System.out.println("Vous êtes du signe astrologique chinois du Lapin. ");
-        } else if (année == 2012 || année == 2000 || année == 1988 || année == 1976) {
+        } else if (année == 2024 || année == 2012 || année == 2000 || année == 1988 || année == 1976) {
             System.out.println("Vous êtes du signe astrologique chinois du Dragon. ");
         } else if (année == 2013 || année == 2001 || année == 1989 || année == 1977) {
             System.out.println("Vous êtes du signe astrologique chinois du Serpent. ");
