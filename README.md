@@ -15,4 +15,4 @@ Cependant, je dois également gérer les exceptions liées aux entrées dont le 
 Cela implique de vérifier si l'entrée est bien un entier et de fournir un message d'erreur approprié en cas de saisie non valide.
 
 ## Exemple 
-![Voici un exemple](./Readme-exemple-sortie.png)
+![Voici un exemple](./images/Readme-exemple-sortie.png)
