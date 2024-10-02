@@ -6,13 +6,15 @@ public class Main {
 
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Bonjour !"); //La politesse avant tout
+        
+        System.out.println("Bonjour !");  //La politesse avant tout
         System.out.println("Je vais vous poser quelques questions pour en savoir plus sur vous.");
         Scanner myObj = new Scanner(System.in);
 
         System.out.println("Quelle est votre année de naissance ?");
         int année = myObj.nextInt();
-        System.out.println("Vous avez donc " + (2024 - année) + " ans !"); // On calcule l'âge de la personne
+        // On calcule l'âge de la personne
+        System.out.println("Vous avez donc " + (2024 - année) + " ans !"); 
 
       if (année == 2020 || année == 2008 || année == 1996 || année == 1984 || année == 1972) {
             System.out.println("Vous êtes du signe astrologique chinois du Rat. ");
@@ -44,7 +46,9 @@ public class Main {
             System.out.println("Vous n'êtes donc pas encore né !");
         }
 
-        System.out.println("Passons maintenant à une nouvelle question, quel est votre mois de naissance ?"); /*Nous avons besoin du jour et du mois de naissance pour déterminer le signe astrologique occidental, nous demanderons le jour de naissance à la prochaine entrée. */
+        System.out.println("Passons maintenant à une nouvelle question, quel est votre mois de naissance ?"); 
+        /*Nous avons besoin du jour et du mois de naissance pour déterminer le signe astrologique occidental, 
+        nous demanderons le jour de naissance à la prochaine entrée. */
         String mois = myObj.next();
         System.out.println("C'est mon mois préféré !"); //C'est une réponse générique.
 
