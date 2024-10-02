@@ -46,7 +46,7 @@ public class Main {
 
         System.out.println("Passons maintenant à une nouvelle question, quel est votre mois de naissance ?"); /*Nous avons besoin du jour et du mois de naissance pour déterminer le signe astrologique occidental, nous demanderons le jour de naissance à la prochaine entrée. */
         String mois = myObj.next();
-        System.out.println("C'est mon mois préféré !"); //C'est une réponse générique, donc peut-être un mensonge...
+        System.out.println("C'est mon mois préféré !"); //C'est une réponse générique.
 
         System.out.println("Et pour finir votre jour de naissance?");
         int jour = myObj.nextInt();
